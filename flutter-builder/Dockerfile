@@ -1,6 +1,6 @@
 # This Dockerfile builds an image that can be used to compile Flutter web apps.
 
-ARG FLUTTER_VERSION=3.19.6
+ARG FLUTTER_VERSION=3.22.0
 
 FROM ubuntu:latest as flutter
 ARG FLUTTER_VERSION

@@ -1,5 +1,5 @@
 # This Dockerfile builds a simple web server.
-ARG GO_VERSION=1.21
+ARG GO_VERSION=1.22
 
 # Use the official Golang image to create a build artifact.
 # This is based on Debian and sets the GOPATH to /go.
